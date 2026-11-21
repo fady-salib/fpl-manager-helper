@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-18",
+  "sources": [
+    {
+      "file": "data/history-2023-24.csv",
+      "source": "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2023-24/gws/merged_gw.csv",
+      "season": "2023-24",
+      "sha256": "482da55d7e7e91c14cbcf9aee54d182b3a2eeea95343c404a082d05dc6730bfb"
+    },
+    {
+      "file": "data/history-2024-25.csv",
+      "source": "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2024-25/gws/merged_gw.csv",
+      "season": "2024-25",
+      "sha256": "d71aa4356d7d90d9ba2865ded288d447be024e9a09e1e113ead3292d53e5c641"
+    },
+    {
+      "file": "data/fpl.sqlite",
+      "source": "https://fantasy.premierleague.com/api/",
+      "bootstrap_fetched_at": "2026-11-18T00:09:39.409997+00:00",
+      "fixtures_fetched_at": "2026-11-18T00:09:39.583995+00:00",
+      "players": 672,
+      "fixtures": 380,
+      "history_endpoints": 672,
+      "public_endpoints_only": true
+    }
+  ]
+}

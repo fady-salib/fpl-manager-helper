@@ -1,0 +1,42 @@
+........................................................................ [ 72%]
+............................                                             [100%]
+=============================== warnings summary ===============================
+../../opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/pytest_plugin.py:14
+  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/anyio/pytest_plugin.py:14: PytestRemovedIn10Warning: _pytest.python.CallSpec2 has been renamed to CallSpec.
+  The CallSpec2 alias will be removed in pytest 10.
+  Update imports to use CallSpec instead.
+  See https://docs.pytest.org/en/stable/deprecations.html#callspec2-renamed
+    from _pytest.python import CallSpec2
+
+tests/test_app_repairs.py: 10 warnings
+tests/test_backtest.py: 9 warnings
+tests/test_dashboard.py: 66 warnings
+tests/test_local_ml.py: 10 warnings
+tests/test_optimization.py: 78 warnings
+tests/test_simulation.py: 6 warnings
+tests/test_team_builder.py: 523 warnings
+  /workspace/fpl-ai-manager/.venv/lib/python3.12/site-packages/pulp/pulp.py:547: DeprecationWarning: LpVariable.dicts is deprecated; use prob.add_variable_dicts(...) for PuLP 4.0 compatibility.
+    _v4_deprecation(
+
+tests/test_app_repairs.py: 2 warnings
+tests/test_backtest.py: 3 warnings
+tests/test_dashboard.py: 10 warnings
+tests/test_local_ml.py: 2 warnings
+tests/test_optimization.py: 24 warnings
+tests/test_simulation.py: 2 warnings
+tests/test_team_builder.py: 71 warnings
+  /workspace/fpl-ai-manager/.venv/lib/python3.12/site-packages/pulp/pulp.py:318: DeprecationWarning: Constructing LpVariable(name, ...) directly is deprecated; in PuLP 4.0 use prob.add_variable(name, lowBound, upBound, cat=...). Variables are then attached to the model when created.
+    _v4_deprecation(msg, stacklevel=2)
+
+tests/test_app_repairs.py: 2 warnings
+tests/test_backtest.py: 3 warnings
+tests/test_dashboard.py: 10 warnings
+tests/test_local_ml.py: 2 warnings
+tests/test_optimization.py: 24 warnings
+tests/test_simulation.py: 2 warnings
+tests/test_team_builder.py: 71 warnings
+  /workspace/fpl-ai-manager/.venv/lib/python3.12/site-packages/pulp/apis/coin_api.py:70: DeprecationWarning: PULP_CBC_CMD is deprecated and will be removed in PuLP 4.0. Install CBC with `pip install pulp[cbc]` and use COIN_CMD instead.
+    v4_deprecation(PULP_CBC_CMD_DEPRECATION_MSG, stacklevel=stacklevel)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+100 passed, 931 warnings in 41.91s

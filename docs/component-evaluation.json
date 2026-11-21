@@ -1,0 +1,187 @@
+{
+  "events": [
+    8
+  ],
+  "rows": 668,
+  "samples_per_player_fixture": 1000,
+  "seed": 42,
+  "metrics": {
+    "mae": 1.2119715568862275,
+    "rmse": 2.131883945524622,
+    "spearman": 0.6592498772013071,
+    "top20_overlap": 0.15,
+    "mean_bias": -0.04837275449101799,
+    "calibration_bins": [
+      {
+        "count": 134,
+        "predicted": -0.00013432835820895522,
+        "observed": 0.014925373134328358
+      },
+      {
+        "count": 134,
+        "predicted": 0.05817910447761195,
+        "observed": 0.19402985074626866
+      },
+      {
+        "count": 134,
+        "predicted": 0.6997014925373134,
+        "observed": 1.1343283582089552
+      },
+      {
+        "count": 133,
+        "predicted": 2.0583308270676692,
+        "observed": 2.082706766917293
+      },
+      {
+        "count": 133,
+        "predicted": 3.9127142857142863,
+        "observed": 3.5413533834586466
+      }
+    ]
+  },
+  "p10_p90_coverage": 0.8817365269461078,
+  "limitations": [
+    "Uncalibrated empirical-event model",
+    "Position uses current-season roster mapping",
+    "No deadline snapshot archive",
+    "Independent player/opponent event approximation"
+  ],
+  "by_position": {
+    "GKP": {
+      "mae": 0.8016438356164384,
+      "rmse": 1.7776293895453412,
+      "spearman": 0.8698275303781262,
+      "top20_overlap": 0.9,
+      "mean_bias": -0.25427397260273976,
+      "calibration_bins": [
+        {
+          "count": 15,
+          "predicted": 0.0,
+          "observed": 0.0
+        },
+        {
+          "count": 15,
+          "predicted": 0.0,
+          "observed": 0.0
+        },
+        {
+          "count": 15,
+          "predicted": 0.0,
+          "observed": 0.0
+        },
+        {
+          "count": 14,
+          "predicted": 1.1649285714285718,
+          "observed": 2.2142857142857144
+        },
+        {
+          "count": 14,
+          "predicted": 3.6520714285714284,
+          "observed": 3.9285714285714284
+        }
+      ]
+    },
+    "DEF": {
+      "mae": 1.5062396313364055,
+      "rmse": 2.506739568178715,
+      "spearman": 0.6181289610895342,
+      "top20_overlap": 0.45,
+      "mean_bias": -0.17347465437788018,
+      "calibration_bins": [
+        {
+          "count": 44,
+          "predicted": -0.0004090909090909091,
+          "observed": 0.022727272727272728
+        },
+        {
+          "count": 44,
+          "predicted": 0.14722727272727273,
+          "observed": 0.7045454545454546
+        },
+        {
+          "count": 43,
+          "predicted": 0.9875581395348838,
+          "observed": 1.0465116279069768
+        },
+        {
+          "count": 43,
+          "predicted": 2.3379069767441862,
+          "observed": 2.116279069767442
+        },
+        {
+          "count": 43,
+          "predicted": 3.9744418604651166,
+          "observed": 4.4186046511627906
+        }
+      ]
+    },
+    "MID": {
+      "mae": 1.1433411371237459,
+      "rmse": 1.9216013815474886,
+      "spearman": 0.6119399005455592,
+      "top20_overlap": 0.05,
+      "mean_bias": 0.06350836120401337,
+      "calibration_bins": [
+        {
+          "count": 60,
+          "predicted": 0.0,
+          "observed": 0.016666666666666666
+        },
+        {
+          "count": 60,
+          "predicted": 0.12316666666666667,
+          "observed": 0.26666666666666666
+        },
+        {
+          "count": 60,
+          "predicted": 0.7799,
+          "observed": 1.4666666666666666
+        },
+        {
+          "count": 60,
+          "predicted": 2.0288,
+          "observed": 1.9333333333333333
+        },
+        {
+          "count": 59,
+          "predicted": 3.865711864406779,
+          "observed": 2.7796610169491527
+        }
+      ]
+    },
+    "FWD": {
+      "mae": 1.0425822784810126,
+      "rmse": 2.0674996946412767,
+      "spearman": 0.752657042017953,
+      "top20_overlap": 0.65,
+      "mean_bias": 0.062075949367088594,
+      "calibration_bins": [
+        {
+          "count": 16,
+          "predicted": 0.0,
+          "observed": 0.0
+        },
+        {
+          "count": 16,
+          "predicted": 0.0523125,
+          "observed": 0.0
+        },
+        {
+          "count": 16,
+          "predicted": 0.6413125,
+          "observed": 1.3125
+        },
+        {
+          "count": 16,
+          "predicted": 1.8269375,
+          "observed": 1.5
+        },
+        {
+          "count": 15,
+          "predicted": 4.238333333333333,
+          "observed": 3.6
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-29",
+  "season": "2026_27",
+  "sources": [
+    {
+      "url": "https://fantasy.premierleague.com/api/bootstrap-static/",
+      "http_status": 200,
+      "bytes": 1788965,
+      "sha256": "3b86a0607aaa517f980c83eaefb8cb13f5f3ee3470e1ac7d092f5ce3c9f317c9"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/fixtures/",
+      "http_status": 200,
+      "bytes": 300482,
+      "sha256": "97f982774008b950cc2414890c07582fedf82c549b8327fb4ef9d4c415c37ae8"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/1/",
+      "http_status": 200,
+      "bytes": 16749,
+      "sha256": "e1be5f4144ffaf9080f754267d29bbe1fac9fbfc1d633aa05b8f313abeaad1ab"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/1/",
+      "http_status": 200,
+      "bytes": 18229,
+      "sha256": "253438598519ba0d6a997a976f1e4b8874775e54c04de4019e837ea0c72ca976"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/1/event/8/picks/",
+      "http_status": 200,
+      "bytes": 1924,
+      "sha256": "c389128385038e7861ba951833c2714dafb7e01a70dcab01ed9832e16126f1b6"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/event/8/live/",
+      "http_status": 200,
+      "bytes": 475499,
+      "sha256": "aa74562fd308efc7a1ecbaeb5e2e2d477f9060e19129c2d70267bfa8e197e743"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/assets/Rules-B9iCcdNr.js",
+      "http_status": 200,
+      "bytes": 57209,
+      "sha256": "450b43840d572923ba68e0b1b90a3d3a3e692ee5b86f9dcdbd7eeef2aa2132db"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/assets/Terms-CEwy0Axi.js",
+      "http_status": 200,
+      "bytes": 28229,
+      "sha256": "6979783fecd77f52a8233e7276a235549321b8260f56335572fc80120149e385"
+    }
+  ]
+}

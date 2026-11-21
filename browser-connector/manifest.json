@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "FPL Manager Local Connector",
+  "version": "0.3.1",
+  "description": "Connect your signed-in FPL team and load its selling prices into your local FPL Manager.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*"
+  ],
+  "action": {
+    "default_title": "Connect this FPL account",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://fantasy.premierleague.com/*"
+      ],
+      "js": [
+        "capture.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

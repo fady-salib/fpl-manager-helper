@@ -1,0 +1,98 @@
+{
+  "snapshot_at": "2026-10-29T19:34:53.122829+00:00",
+  "season": "2026_27",
+  "horizon": 3,
+  "risk": "Balanced",
+  "runs": [
+    {
+      "model": "Baseline",
+      "forecast_players": 563,
+      "skipped": 106,
+      "seconds": 3.68,
+      "squads": [
+        {
+          "variant": "Maximum expected points",
+          "players": 15,
+          "cost": 997,
+          "bank": 3,
+          "expected_points": 276.0839112792883
+        },
+        {
+          "variant": "Balanced",
+          "players": 15,
+          "cost": 976,
+          "bank": 24,
+          "expected_points": 275.52246725415006
+        },
+        {
+          "variant": "Differential-focused",
+          "players": 15,
+          "cost": 984,
+          "bank": 16,
+          "expected_points": 274.16321328968183
+        }
+      ],
+      "unavailable_styles": {}
+    },
+    {
+      "model": "Locally trained ML",
+      "forecast_players": 563,
+      "skipped": 106,
+      "seconds": 8.55,
+      "squads": [
+        {
+          "variant": "Maximum expected points",
+          "players": 15,
+          "cost": 974,
+          "bank": 26,
+          "expected_points": 193.98306031890428
+        },
+        {
+          "variant": "Balanced",
+          "players": 15,
+          "cost": 983,
+          "bank": 17,
+          "expected_points": 193.98186500266632
+        },
+        {
+          "variant": "Differential-focused",
+          "players": 15,
+          "cost": 903,
+          "bank": 97,
+          "expected_points": 193.3546001557897
+        }
+      ],
+      "unavailable_styles": {}
+    },
+    {
+      "model": "Event simulation",
+      "forecast_players": 563,
+      "skipped": 106,
+      "seconds": 5.72,
+      "squads": [
+        {
+          "variant": "Maximum expected points",
+          "players": 15,
+          "cost": 996,
+          "bank": 4,
+          "expected_points": 209.38200000000003
+        },
+        {
+          "variant": "Balanced",
+          "players": 15,
+          "cost": 996,
+          "bank": 4,
+          "expected_points": 209.38200000000003
+        },
+        {
+          "variant": "Differential-focused",
+          "players": 15,
+          "cost": 998,
+          "bank": 2,
+          "expected_points": 206.949
+        }
+      ],
+      "unavailable_styles": {}
+    }
+  ]
+}

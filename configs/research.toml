@@ -1,0 +1,13 @@
+# Documents the current deterministic benchmark defaults. This file does not
+# silently override code or season rules; CLI options are explicit.
+seed = 42
+model_threads = 1
+rolling_gameweeks = [3, 5, 10]
+selection_weeks = 1
+calibration_weeks = 1
+test_weeks = 1
+nominal_residual_interval = 0.8
+fdr_exponent = 0.35
+api_minimum_interval_seconds = 0.4
+api_snapshot_ttl_seconds = 900
+ui_lineup_scenarios = 128
